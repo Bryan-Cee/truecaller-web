@@ -1,14 +1,8 @@
-import React from 'react'
+import Layout from '@/components/Layout';
+import React from 'react';
 
 const Inbox = () => {
-  return (
-    <>
-      <div className="min-w-[27rem]">Inbox</div>
-      <div className="bg-custom-fill-1 flex-grow rounded-lg p-2 min-w-[33.75rem]">
-        <div className="bg-white rounded-md h-full">Conversations</div>
-      </div>
-    </>
-  );
-}
+  return <Layout />;
+};
 
 export default Inbox;
